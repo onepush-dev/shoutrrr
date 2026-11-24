@@ -2,7 +2,7 @@
 
 [Shoutrrr](https://github.com/coollabsio/shoutrrr) (Apache-2.0), from the team behind Coolify: write a post once and schedule it to X, LinkedIn, Bluesky, Mastodon, Threads, Instagram and more, with workspaces, an approval-friendly calendar, analytics, a REST API and MCP. Deploy it on Railway with one click. (Not the containrrr/shoutrrr notification library.)
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TEMPLATE_CODE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/DvYadU)
 
 ## What this template runs
 - **shoutrrr**: `ghcr.io/onepush-dev/shoutrrr:1.5.9`, the official `ghcr.io/coollabsio/shoutrrr:1.5.9` image (application unmodified). One container runs the FrankenPHP/Octane web server on 8080 plus the queue worker and scheduler. One volume at `/var/www/html/storage` holds uploads, Passport keys, logs and the SQLite database (`storage/database/database.sqlite`). Health check `/up`.
